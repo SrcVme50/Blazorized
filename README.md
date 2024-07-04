@@ -3,11 +3,17 @@
 JWT:
 
 {
+
   "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/emailaddress": "superadmin@blazorized.htb",
+  
   "http://schemas.microsoft.com/ws/2008/06/identity/claims/role": "Super_Admin",
+  
   "iss": "http://api.blazorized.htb",
+  
   "aud": "http://admin.blazorized.htb",
+  
   "exp": 1740000000
+  
 }
 
 
